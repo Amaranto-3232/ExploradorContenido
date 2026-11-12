@@ -1,0 +1,83 @@
+/* ============================================================
+   Explorador de contenido aleatorio - estilos propios
+   ============================================================ */
+
+/* Tarjetas con borde suave y efecto al pasar el mouse */
+.explorador-tarjeta {
+    border-radius: 0.75rem;
+    overflow: hidden;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.explorador-tarjeta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12) !important;
+}
+
+/* Zona que cambia: altura mínima para que las tarjetas no "salten" */
+.explorador-zona {
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Mensajes de "Cargando…" y de error */
+.explorador-estado {
+    margin: 0;
+    padding: 0.5rem;
+    text-align: center;
+    font-style: italic;
+}
+
+/* Contenedor de imagen con altura fija (tamaño uniforme) */
+.explorador-imagen-contenedor {
+    position: relative;
+    height: 260px;
+    border-radius: 0.5rem;
+    background-color: #f1f3f5;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.explorador-imagen-marco {
+    width: 100%;
+    height: 100%;
+}
+
+/* La imagen llena el contenedor sin deformarse */
+.explorador-imagen {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Textos de la cita y del dato curioso */
+.explorador-cita {
+    font-size: 1.05rem;
+    line-height: 1.5;
+}
+
+.explorador-dato {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Botón deshabilitado mientras hay una consulta en curso */
+.explorador-tarjeta .btn:disabled {
+    cursor: progress;
+}
+
+/* En móviles se reduce un poco la altura de las imágenes */
+@media (max-width: 575.98px) {
+    .explorador-imagen-contenedor {
+        height: 220px;
+    }
+
+    .explorador-zona {
+        min-height: 240px;
+    }
+}

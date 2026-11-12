@@ -1,0 +1,94 @@
+@{
+    ViewData["Title"] = "Explorador de contenido aleatorio";
+}
+
+<!-- Estilos propios de esta vista -->
+<link rel="stylesheet" href="~/css/explorador.css" asp-append-version="true" />
+
+<section class="explorador">
+    <header class="text-center mb-4">
+        <h1 class="display-6 fw-bold">Explorador de contenido aleatorio</h1>
+        <p class="text-secondary mb-0">Citas, perros, gatos y datos curiosos obtenidos en tiempo real desde 4 APIs públicas.</p>
+    </header>
+
+    <!-- 1 columna en móvil, 2 en tablet, 4 en escritorio -->
+    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-4 g-4">
+
+        <!-- ===== 1. Citas ===== -->
+        <div class="col">
+            <article class="card h-100 shadow-sm explorador-tarjeta">
+                <div class="card-header fw-semibold">💬 Cita aleatoria</div>
+                <div id="cita-zona" class="card-body explorador-zona" aria-live="polite" aria-busy="false">
+                    <p id="cita-estado" class="explorador-estado text-secondary" role="status">Cargando…</p>
+                    <div id="cita-contenido" class="d-none">
+                        <blockquote class="blockquote mb-0">
+                            <p id="cita-texto" class="explorador-cita"></p>
+                            <footer class="blockquote-footer mt-2 mb-0"><cite id="cita-autor"></cite></footer>
+                        </blockquote>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3">
+                    <button id="btn-cita" type="button" class="btn btn-primary w-100">Obtener otra cita</button>
+                </div>
+            </article>
+        </div>
+
+        <!-- ===== 2. Perros ===== -->
+        <div class="col">
+            <article class="card h-100 shadow-sm explorador-tarjeta">
+                <div class="card-header fw-semibold">🐶 Perro aleatorio</div>
+                <div id="perro-zona" class="card-body explorador-zona" aria-live="polite" aria-busy="false">
+                    <div class="explorador-imagen-contenedor">
+                        <p id="perro-estado" class="explorador-estado text-secondary" role="status">Cargando…</p>
+                        <div id="perro-contenido" class="explorador-imagen-marco d-none">
+                            <img id="perro-imagen" class="explorador-imagen" alt="Fotografía aleatoria de un perro" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3">
+                    <button id="btn-perro" type="button" class="btn btn-primary w-100">Mostrar otro perro</button>
+                </div>
+            </article>
+        </div>
+
+        <!-- ===== 3. Gatos ===== -->
+        <div class="col">
+            <article class="card h-100 shadow-sm explorador-tarjeta">
+                <div class="card-header fw-semibold">🐱 Gato aleatorio</div>
+                <div id="gato-zona" class="card-body explorador-zona" aria-live="polite" aria-busy="false">
+                    <div class="explorador-imagen-contenedor">
+                        <p id="gato-estado" class="explorador-estado text-secondary" role="status">Cargando…</p>
+                        <div id="gato-contenido" class="explorador-imagen-marco d-none">
+                            <img id="gato-imagen" class="explorador-imagen" alt="Fotografía aleatoria de un gato" />
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3">
+                    <button id="btn-gato" type="button" class="btn btn-primary w-100">Mostrar otro gato</button>
+                </div>
+            </article>
+        </div>
+
+        <!-- ===== 4. Datos curiosos ===== -->
+        <div class="col">
+            <article class="card h-100 shadow-sm explorador-tarjeta">
+                <div class="card-header fw-semibold">💡 Dato curioso</div>
+                <div id="dato-zona" class="card-body explorador-zona" aria-live="polite" aria-busy="false">
+                    <p id="dato-estado" class="explorador-estado text-secondary" role="status">Cargando…</p>
+                    <div id="dato-contenido" class="d-none">
+                        <p id="dato-texto" class="explorador-dato mb-0"></p>
+                    </div>
+                </div>
+                <div class="card-footer bg-transparent border-0 pb-3">
+                    <button id="btn-dato" type="button" class="btn btn-primary w-100">Mostrar otro dato</button>
+                </div>
+            </article>
+        </div>
+
+    </div>
+</section>
+
+@section Scripts {
+    <!-- Lógica de consumo de las APIs -->
+    <script src="~/js/explorador.js" asp-append-version="true"></script>
+}

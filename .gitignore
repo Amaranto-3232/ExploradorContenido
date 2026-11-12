@@ -1,0 +1,13 @@
+# Compilación de .NET
+bin/
+obj/
+
+# Visual Studio / VS Code
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

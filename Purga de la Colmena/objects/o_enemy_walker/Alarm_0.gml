@@ -1,0 +1,10 @@
+/// @description shoot
+
+obj = instance_create_layer(x,y-30,"att",o_enemy_shot);
+
+if(image_xscale == -1) obj.hspeed *= -1;
+
+hspeed = xSpeedTemp;
+if(hspeed > 0) image_xscale = 1; else image_xscale = -1;
+
+alarm[1] = reloadSpeed;

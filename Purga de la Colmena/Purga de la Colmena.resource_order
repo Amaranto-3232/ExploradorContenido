@@ -1,0 +1,921 @@
+{
+  "FolderOrderSettings": [
+    {
+      "name": "Objects",
+      "order": 2,
+      "path": "folders/Objects.yy"
+    },
+    {
+      "name": "control",
+      "order": 6,
+      "path": "folders/Objects/control.yy"
+    },
+    {
+      "name": "enemies",
+      "order": 5,
+      "path": "folders/Objects/enemies.yy"
+    },
+    {
+      "name": "levels",
+      "order": 7,
+      "path": "folders/Objects/levels.yy"
+    },
+    {
+      "name": "player",
+      "order": 4,
+      "path": "folders/Objects/player.yy"
+    },
+    {
+      "name": "Rooms",
+      "order": 3,
+      "path": "folders/Rooms.yy"
+    },
+    {
+      "name": "Scripts",
+      "order": 4,
+      "path": "folders/Scripts.yy"
+    },
+    {
+      "name": "Sprites",
+      "order": 1,
+      "path": "folders/Sprites.yy"
+    },
+    {
+      "name": "enemies",
+      "order": 3,
+      "path": "folders/Sprites/enemies.yy"
+    },
+    {
+      "name": "levels",
+      "order": 5,
+      "path": "folders/Sprites/levels.yy"
+    },
+    {
+      "name": "player",
+      "order": 2,
+      "path": "folders/Sprites/player.yy"
+    },
+    {
+      "name": "Tilesets",
+      "order": 5,
+      "path": "folders/Tilesets.yy"
+    }
+  ],
+  "ResourceOrderSettings": [
+    {
+      "name": "o_att",
+      "order": 2,
+      "path": "objects/o_att/o_att.yy"
+    },
+    {
+      "name": "o_checkpoint",
+      "order": 7,
+      "path": "objects/o_checkpoint/o_checkpoint.yy"
+    },
+    {
+      "name": "o_cloud_1",
+      "order": 4,
+      "path": "objects/o_cloud_1/o_cloud_1.yy"
+    },
+    {
+      "name": "o_cloud_2",
+      "order": 5,
+      "path": "objects/o_cloud_2/o_cloud_2.yy"
+    },
+    {
+      "name": "o_control",
+      "order": 1,
+      "path": "objects/o_control/o_control.yy"
+    },
+    {
+      "name": "o_enemy_att",
+      "order": 4,
+      "path": "objects/o_enemy_att/o_enemy_att.yy"
+    },
+    {
+      "name": "o_enemy_body",
+      "order": 3,
+      "path": "objects/o_enemy_body/o_enemy_body.yy"
+    },
+    {
+      "name": "o_enemy_shot",
+      "order": 1,
+      "path": "objects/o_enemy_shot/o_enemy_shot.yy"
+    },
+    {
+      "name": "o_enemy",
+      "order": 2,
+      "path": "objects/o_enemy/o_enemy.yy"
+    },
+    {
+      "name": "o_jumper",
+      "order": 5,
+      "path": "objects/o_jumper/o_jumper.yy"
+    },
+    {
+      "name": "o_laser_player",
+      "order": 4,
+      "path": "objects/o_laser_player/o_laser_player.yy"
+    },
+    {
+      "name": "o_player",
+      "order": 1,
+      "path": "objects/o_player/o_player.yy"
+    },
+    {
+      "name": "o_solid",
+      "order": 6,
+      "path": "objects/o_solid/o_solid.yy"
+    },
+    {
+      "name": "o_terrain",
+      "order": 3,
+      "path": "objects/o_terrain/o_terrain.yy"
+    },
+    {
+      "name": "o_tracer_laser",
+      "order": 3,
+      "path": "objects/o_tracer_laser/o_tracer_laser.yy"
+    },
+    {
+      "name": "o_tran_l",
+      "order": 2,
+      "path": "objects/o_tran_l/o_tran_l.yy"
+    },
+    {
+      "name": "o_tran_r",
+      "order": 1,
+      "path": "objects/o_tran_r/o_tran_r.yy"
+    },
+    {
+      "name": "r_2",
+      "order": 1,
+      "path": "rooms/r_2/r_2.yy"
+    },
+    {
+      "name": "c_flip",
+      "order": 1,
+      "path": "scripts/c_flip/c_flip.yy"
+    },
+    {
+      "name": "c_weapon_laser",
+      "order": 2,
+      "path": "scripts/c_weapon_laser/c_weapon_laser.yy"
+    },
+    {
+      "name": "s_checkpoint",
+      "order": 6,
+      "path": "sprites/s_checkpoint/s_checkpoint.yy"
+    },
+    {
+      "name": "s_cloud_1",
+      "order": 4,
+      "path": "sprites/s_cloud_1/s_cloud_1.yy"
+    },
+    {
+      "name": "s_cloud_2",
+      "order": 5,
+      "path": "sprites/s_cloud_2/s_cloud_2.yy"
+    },
+    {
+      "name": "s_crouch",
+      "order": 6,
+      "path": "sprites/s_crouch/s_crouch.yy"
+    },
+    {
+      "name": "s_death",
+      "order": 8,
+      "path": "sprites/s_death/s_death.yy"
+    },
+    {
+      "name": "s_enemy_walker",
+      "order": 1,
+      "path": "sprites/s_enemy_walker/s_enemy_walker.yy"
+    },
+    {
+      "name": "s_fall",
+      "order": 4,
+      "path": "sprites/s_fall/s_fall.yy"
+    },
+    {
+      "name": "s_fondo_noche",
+      "order": 3,
+      "path": "sprites/s_fondo_noche/s_fondo_noche.yy"
+    },
+    {
+      "name": "s_jump",
+      "order": 3,
+      "path": "sprites/s_jump/s_jump.yy"
+    },
+    {
+      "name": "s_jumper",
+      "order": 3,
+      "path": "sprites/s_jumper/s_jumper.yy"
+    },
+    {
+      "name": "s_laser_player",
+      "order": 9,
+      "path": "sprites/s_laser_player/s_laser_player.yy"
+    },
+    {
+      "name": "s_mask_jumper",
+      "order": 2,
+      "path": "sprites/s_mask_jumper/s_mask_jumper.yy"
+    },
+    {
+      "name": "s_pistol",
+      "order": 5,
+      "path": "sprites/s_pistol/s_pistol.yy"
+    },
+    {
+      "name": "s_player_mask_crouch",
+      "order": 7,
+      "path": "sprites/s_player_mask_crouch/s_player_mask_crouch.yy"
+    },
+    {
+      "name": "s_solid",
+      "order": 1,
+      "path": "sprites/s_solid/s_solid.yy"
+    },
+    {
+      "name": "s_stand",
+      "order": 1,
+      "path": "sprites/s_stand/s_stand.yy"
+    },
+    {
+      "name": "s_tileset_1",
+      "order": 2,
+      "path": "sprites/s_tileset_1/s_tileset_1.yy"
+    },
+    {
+      "name": "s_tracer_lacer",
+      "order": 10,
+      "path": "sprites/s_tracer_lacer/s_tracer_lacer.yy"
+    },
+    {
+      "name": "s_tran_l",
+      "order": 1,
+      "path": "sprites/s_tran_l/s_tran_l.yy"
+    },
+    {
+      "name": "s_walk",
+      "order": 2,
+      "path": "sprites/s_walk/s_walk.yy"
+    },
+    {
+      "name": "c_draw_flash",
+      "order": 100,
+      "path": "scripts/c_draw_flash/c_draw_flash.yy"
+    },
+    {
+      "name": "c_enemy_die",
+      "order": 101,
+      "path": "scripts/c_enemy_die/c_enemy_die.yy"
+    },
+    {
+      "name": "c_player_damage",
+      "order": 102,
+      "path": "scripts/c_player_damage/c_player_damage.yy"
+    },
+    {
+      "name": "c_screen_shake",
+      "order": 103,
+      "path": "scripts/c_screen_shake/c_screen_shake.yy"
+    },
+    {
+      "name": "c_sfx",
+      "order": 104,
+      "path": "scripts/c_sfx/c_sfx.yy"
+    },
+    {
+      "name": "c_weapon_bolter",
+      "order": 105,
+      "path": "scripts/c_weapon_bolter/c_weapon_bolter.yy"
+    },
+    {
+      "name": "c_weapon_chainsword",
+      "order": 106,
+      "path": "scripts/c_weapon_chainsword/c_weapon_chainsword.yy"
+    },
+    {
+      "name": "c_weapon_pistol",
+      "order": 107,
+      "path": "scripts/c_weapon_pistol/c_weapon_pistol.yy"
+    },
+    {
+      "name": "c_weapon_plasma",
+      "order": 108,
+      "path": "scripts/c_weapon_plasma/c_weapon_plasma.yy"
+    },
+    {
+      "name": "o_bolter_shot",
+      "order": 109,
+      "path": "objects/o_bolter_shot/o_bolter_shot.yy"
+    },
+    {
+      "name": "o_boss_gate",
+      "order": 110,
+      "path": "objects/o_boss_gate/o_boss_gate.yy"
+    },
+    {
+      "name": "o_boss_warboss",
+      "order": 111,
+      "path": "objects/o_boss_warboss/o_boss_warboss.yy"
+    },
+    {
+      "name": "o_chainsword_hit",
+      "order": 112,
+      "path": "objects/o_chainsword_hit/o_chainsword_hit.yy"
+    },
+    {
+      "name": "o_chapter_select",
+      "order": 113,
+      "path": "objects/o_chapter_select/o_chapter_select.yy"
+    },
+    {
+      "name": "o_cultist",
+      "order": 114,
+      "path": "objects/o_cultist/o_cultist.yy"
+    },
+    {
+      "name": "o_cultist_shot",
+      "order": 115,
+      "path": "objects/o_cultist_shot/o_cultist_shot.yy"
+    },
+    {
+      "name": "o_dummy",
+      "order": 116,
+      "path": "objects/o_dummy/o_dummy.yy"
+    },
+    {
+      "name": "o_enemy_walker",
+      "order": 117,
+      "path": "objects/o_enemy_walker/o_enemy_walker.yy"
+    },
+    {
+      "name": "o_game_start",
+      "order": 118,
+      "path": "objects/o_game_start/o_game_start.yy"
+    },
+    {
+      "name": "o_hormagaunt",
+      "order": 119,
+      "path": "objects/o_hormagaunt/o_hormagaunt.yy"
+    },
+    {
+      "name": "o_hud",
+      "order": 120,
+      "path": "objects/o_hud/o_hud.yy"
+    },
+    {
+      "name": "o_menu",
+      "order": 121,
+      "path": "objects/o_menu/o_menu.yy"
+    },
+    {
+      "name": "o_ork",
+      "order": 122,
+      "path": "objects/o_ork/o_ork.yy"
+    },
+    {
+      "name": "o_ork_shot",
+      "order": 123,
+      "path": "objects/o_ork_shot/o_ork_shot.yy"
+    },
+    {
+      "name": "o_pickup",
+      "order": 124,
+      "path": "objects/o_pickup/o_pickup.yy"
+    },
+    {
+      "name": "o_pickup_ammo",
+      "order": 125,
+      "path": "objects/o_pickup_ammo/o_pickup_ammo.yy"
+    },
+    {
+      "name": "o_pickup_health",
+      "order": 126,
+      "path": "objects/o_pickup_health/o_pickup_health.yy"
+    },
+    {
+      "name": "o_pistol",
+      "order": 127,
+      "path": "objects/o_pistol/o_pistol.yy"
+    },
+    {
+      "name": "o_plasma_beam",
+      "order": 128,
+      "path": "objects/o_plasma_beam/o_plasma_beam.yy"
+    },
+    {
+      "name": "o_shockwave",
+      "order": 129,
+      "path": "objects/o_shockwave/o_shockwave.yy"
+    },
+    {
+      "name": "o_tran",
+      "order": 130,
+      "path": "objects/o_tran/o_tran.yy"
+    },
+    {
+      "name": "o_tuto_sign",
+      "order": 131,
+      "path": "objects/o_tuto_sign/o_tuto_sign.yy"
+    },
+    {
+      "name": "o_tutorial",
+      "order": 132,
+      "path": "objects/o_tutorial/o_tutorial.yy"
+    },
+    {
+      "name": "r_1",
+      "order": 133,
+      "path": "rooms/r_1/r_1.yy"
+    },
+    {
+      "name": "r_3",
+      "order": 134,
+      "path": "rooms/r_3/r_3.yy"
+    },
+    {
+      "name": "r_boss",
+      "order": 135,
+      "path": "rooms/r_boss/r_boss.yy"
+    },
+    {
+      "name": "r_gameover",
+      "order": 136,
+      "path": "rooms/r_gameover/r_gameover.yy"
+    },
+    {
+      "name": "r_menu",
+      "order": 137,
+      "path": "rooms/r_menu/r_menu.yy"
+    },
+    {
+      "name": "r_select",
+      "order": 138,
+      "path": "rooms/r_select/r_select.yy"
+    },
+    {
+      "name": "r_tutorial",
+      "order": 139,
+      "path": "rooms/r_tutorial/r_tutorial.yy"
+    },
+    {
+      "name": "r_victory",
+      "order": 140,
+      "path": "rooms/r_victory/r_victory.yy"
+    },
+    {
+      "name": "s_bolter_shot",
+      "order": 141,
+      "path": "sprites/s_bolter_shot/s_bolter_shot.yy"
+    },
+    {
+      "name": "s_boss_gate",
+      "order": 142,
+      "path": "sprites/s_boss_gate/s_boss_gate.yy"
+    },
+    {
+      "name": "s_chainsword_hit",
+      "order": 143,
+      "path": "sprites/s_chainsword_hit/s_chainsword_hit.yy"
+    },
+    {
+      "name": "s_cultist",
+      "order": 144,
+      "path": "sprites/s_cultist/s_cultist.yy"
+    },
+    {
+      "name": "s_cultist_shot",
+      "order": 145,
+      "path": "sprites/s_cultist_shot/s_cultist_shot.yy"
+    },
+    {
+      "name": "s_dummy",
+      "order": 146,
+      "path": "sprites/s_dummy/s_dummy.yy"
+    },
+    {
+      "name": "s_enemy_shot",
+      "order": 147,
+      "path": "sprites/s_enemy_shot/s_enemy_shot.yy"
+    },
+    {
+      "name": "s_fondo_colmena",
+      "order": 148,
+      "path": "sprites/s_fondo_colmena/s_fondo_colmena.yy"
+    },
+    {
+      "name": "s_hormagaunt",
+      "order": 149,
+      "path": "sprites/s_hormagaunt/s_hormagaunt.yy"
+    },
+    {
+      "name": "s_m0_crouch",
+      "order": 150,
+      "path": "sprites/s_m0_crouch/s_m0_crouch.yy"
+    },
+    {
+      "name": "s_m0_death",
+      "order": 151,
+      "path": "sprites/s_m0_death/s_m0_death.yy"
+    },
+    {
+      "name": "s_m0_fall",
+      "order": 152,
+      "path": "sprites/s_m0_fall/s_m0_fall.yy"
+    },
+    {
+      "name": "s_m0_jump",
+      "order": 153,
+      "path": "sprites/s_m0_jump/s_m0_jump.yy"
+    },
+    {
+      "name": "s_m0_melee",
+      "order": 154,
+      "path": "sprites/s_m0_melee/s_m0_melee.yy"
+    },
+    {
+      "name": "s_m0_stand",
+      "order": 155,
+      "path": "sprites/s_m0_stand/s_m0_stand.yy"
+    },
+    {
+      "name": "s_m0_walk",
+      "order": 156,
+      "path": "sprites/s_m0_walk/s_m0_walk.yy"
+    },
+    {
+      "name": "s_m1_crouch",
+      "order": 157,
+      "path": "sprites/s_m1_crouch/s_m1_crouch.yy"
+    },
+    {
+      "name": "s_m1_death",
+      "order": 158,
+      "path": "sprites/s_m1_death/s_m1_death.yy"
+    },
+    {
+      "name": "s_m1_fall",
+      "order": 159,
+      "path": "sprites/s_m1_fall/s_m1_fall.yy"
+    },
+    {
+      "name": "s_m1_jump",
+      "order": 160,
+      "path": "sprites/s_m1_jump/s_m1_jump.yy"
+    },
+    {
+      "name": "s_m1_melee",
+      "order": 161,
+      "path": "sprites/s_m1_melee/s_m1_melee.yy"
+    },
+    {
+      "name": "s_m1_stand",
+      "order": 162,
+      "path": "sprites/s_m1_stand/s_m1_stand.yy"
+    },
+    {
+      "name": "s_m1_walk",
+      "order": 163,
+      "path": "sprites/s_m1_walk/s_m1_walk.yy"
+    },
+    {
+      "name": "s_m2_crouch",
+      "order": 164,
+      "path": "sprites/s_m2_crouch/s_m2_crouch.yy"
+    },
+    {
+      "name": "s_m2_death",
+      "order": 165,
+      "path": "sprites/s_m2_death/s_m2_death.yy"
+    },
+    {
+      "name": "s_m2_fall",
+      "order": 166,
+      "path": "sprites/s_m2_fall/s_m2_fall.yy"
+    },
+    {
+      "name": "s_m2_jump",
+      "order": 167,
+      "path": "sprites/s_m2_jump/s_m2_jump.yy"
+    },
+    {
+      "name": "s_m2_melee",
+      "order": 168,
+      "path": "sprites/s_m2_melee/s_m2_melee.yy"
+    },
+    {
+      "name": "s_m2_stand",
+      "order": 169,
+      "path": "sprites/s_m2_stand/s_m2_stand.yy"
+    },
+    {
+      "name": "s_m2_walk",
+      "order": 170,
+      "path": "sprites/s_m2_walk/s_m2_walk.yy"
+    },
+    {
+      "name": "s_m3_crouch",
+      "order": 171,
+      "path": "sprites/s_m3_crouch/s_m3_crouch.yy"
+    },
+    {
+      "name": "s_m3_death",
+      "order": 172,
+      "path": "sprites/s_m3_death/s_m3_death.yy"
+    },
+    {
+      "name": "s_m3_fall",
+      "order": 173,
+      "path": "sprites/s_m3_fall/s_m3_fall.yy"
+    },
+    {
+      "name": "s_m3_jump",
+      "order": 174,
+      "path": "sprites/s_m3_jump/s_m3_jump.yy"
+    },
+    {
+      "name": "s_m3_melee",
+      "order": 175,
+      "path": "sprites/s_m3_melee/s_m3_melee.yy"
+    },
+    {
+      "name": "s_m3_stand",
+      "order": 176,
+      "path": "sprites/s_m3_stand/s_m3_stand.yy"
+    },
+    {
+      "name": "s_m3_walk",
+      "order": 177,
+      "path": "sprites/s_m3_walk/s_m3_walk.yy"
+    },
+    {
+      "name": "s_m4_crouch",
+      "order": 178,
+      "path": "sprites/s_m4_crouch/s_m4_crouch.yy"
+    },
+    {
+      "name": "s_m4_death",
+      "order": 179,
+      "path": "sprites/s_m4_death/s_m4_death.yy"
+    },
+    {
+      "name": "s_m4_fall",
+      "order": 180,
+      "path": "sprites/s_m4_fall/s_m4_fall.yy"
+    },
+    {
+      "name": "s_m4_jump",
+      "order": 181,
+      "path": "sprites/s_m4_jump/s_m4_jump.yy"
+    },
+    {
+      "name": "s_m4_melee",
+      "order": 182,
+      "path": "sprites/s_m4_melee/s_m4_melee.yy"
+    },
+    {
+      "name": "s_m4_stand",
+      "order": 183,
+      "path": "sprites/s_m4_stand/s_m4_stand.yy"
+    },
+    {
+      "name": "s_m4_walk",
+      "order": 184,
+      "path": "sprites/s_m4_walk/s_m4_walk.yy"
+    },
+    {
+      "name": "s_m5_crouch",
+      "order": 185,
+      "path": "sprites/s_m5_crouch/s_m5_crouch.yy"
+    },
+    {
+      "name": "s_m5_death",
+      "order": 186,
+      "path": "sprites/s_m5_death/s_m5_death.yy"
+    },
+    {
+      "name": "s_m5_fall",
+      "order": 187,
+      "path": "sprites/s_m5_fall/s_m5_fall.yy"
+    },
+    {
+      "name": "s_m5_jump",
+      "order": 188,
+      "path": "sprites/s_m5_jump/s_m5_jump.yy"
+    },
+    {
+      "name": "s_m5_melee",
+      "order": 189,
+      "path": "sprites/s_m5_melee/s_m5_melee.yy"
+    },
+    {
+      "name": "s_m5_stand",
+      "order": 190,
+      "path": "sprites/s_m5_stand/s_m5_stand.yy"
+    },
+    {
+      "name": "s_m5_walk",
+      "order": 191,
+      "path": "sprites/s_m5_walk/s_m5_walk.yy"
+    },
+    {
+      "name": "s_m6_crouch",
+      "order": 192,
+      "path": "sprites/s_m6_crouch/s_m6_crouch.yy"
+    },
+    {
+      "name": "s_m6_death",
+      "order": 193,
+      "path": "sprites/s_m6_death/s_m6_death.yy"
+    },
+    {
+      "name": "s_m6_fall",
+      "order": 194,
+      "path": "sprites/s_m6_fall/s_m6_fall.yy"
+    },
+    {
+      "name": "s_m6_jump",
+      "order": 195,
+      "path": "sprites/s_m6_jump/s_m6_jump.yy"
+    },
+    {
+      "name": "s_m6_melee",
+      "order": 196,
+      "path": "sprites/s_m6_melee/s_m6_melee.yy"
+    },
+    {
+      "name": "s_m6_stand",
+      "order": 197,
+      "path": "sprites/s_m6_stand/s_m6_stand.yy"
+    },
+    {
+      "name": "s_m6_walk",
+      "order": 198,
+      "path": "sprites/s_m6_walk/s_m6_walk.yy"
+    },
+    {
+      "name": "s_m7_crouch",
+      "order": 199,
+      "path": "sprites/s_m7_crouch/s_m7_crouch.yy"
+    },
+    {
+      "name": "s_m7_death",
+      "order": 200,
+      "path": "sprites/s_m7_death/s_m7_death.yy"
+    },
+    {
+      "name": "s_m7_fall",
+      "order": 201,
+      "path": "sprites/s_m7_fall/s_m7_fall.yy"
+    },
+    {
+      "name": "s_m7_jump",
+      "order": 202,
+      "path": "sprites/s_m7_jump/s_m7_jump.yy"
+    },
+    {
+      "name": "s_m7_melee",
+      "order": 203,
+      "path": "sprites/s_m7_melee/s_m7_melee.yy"
+    },
+    {
+      "name": "s_m7_stand",
+      "order": 204,
+      "path": "sprites/s_m7_stand/s_m7_stand.yy"
+    },
+    {
+      "name": "s_m7_walk",
+      "order": 205,
+      "path": "sprites/s_m7_walk/s_m7_walk.yy"
+    },
+    {
+      "name": "s_m8_crouch",
+      "order": 206,
+      "path": "sprites/s_m8_crouch/s_m8_crouch.yy"
+    },
+    {
+      "name": "s_m8_death",
+      "order": 207,
+      "path": "sprites/s_m8_death/s_m8_death.yy"
+    },
+    {
+      "name": "s_m8_fall",
+      "order": 208,
+      "path": "sprites/s_m8_fall/s_m8_fall.yy"
+    },
+    {
+      "name": "s_m8_jump",
+      "order": 209,
+      "path": "sprites/s_m8_jump/s_m8_jump.yy"
+    },
+    {
+      "name": "s_m8_melee",
+      "order": 210,
+      "path": "sprites/s_m8_melee/s_m8_melee.yy"
+    },
+    {
+      "name": "s_m8_stand",
+      "order": 211,
+      "path": "sprites/s_m8_stand/s_m8_stand.yy"
+    },
+    {
+      "name": "s_m8_walk",
+      "order": 212,
+      "path": "sprites/s_m8_walk/s_m8_walk.yy"
+    },
+    {
+      "name": "s_marine_crouch",
+      "order": 213,
+      "path": "sprites/s_marine_crouch/s_marine_crouch.yy"
+    },
+    {
+      "name": "s_marine_death",
+      "order": 214,
+      "path": "sprites/s_marine_death/s_marine_death.yy"
+    },
+    {
+      "name": "s_marine_fall",
+      "order": 215,
+      "path": "sprites/s_marine_fall/s_marine_fall.yy"
+    },
+    {
+      "name": "s_marine_jump",
+      "order": 216,
+      "path": "sprites/s_marine_jump/s_marine_jump.yy"
+    },
+    {
+      "name": "s_marine_melee",
+      "order": 217,
+      "path": "sprites/s_marine_melee/s_marine_melee.yy"
+    },
+    {
+      "name": "s_marine_stand",
+      "order": 218,
+      "path": "sprites/s_marine_stand/s_marine_stand.yy"
+    },
+    {
+      "name": "s_marine_walk",
+      "order": 219,
+      "path": "sprites/s_marine_walk/s_marine_walk.yy"
+    },
+    {
+      "name": "s_ork",
+      "order": 220,
+      "path": "sprites/s_ork/s_ork.yy"
+    },
+    {
+      "name": "s_ork_shot",
+      "order": 221,
+      "path": "sprites/s_ork_shot/s_ork_shot.yy"
+    },
+    {
+      "name": "s_pickup_ammo",
+      "order": 222,
+      "path": "sprites/s_pickup_ammo/s_pickup_ammo.yy"
+    },
+    {
+      "name": "s_pickup_health",
+      "order": 223,
+      "path": "sprites/s_pickup_health/s_pickup_health.yy"
+    },
+    {
+      "name": "s_plasma_beam",
+      "order": 224,
+      "path": "sprites/s_plasma_beam/s_plasma_beam.yy"
+    },
+    {
+      "name": "s_player_mask",
+      "order": 225,
+      "path": "sprites/s_player_mask/s_player_mask.yy"
+    },
+    {
+      "name": "s_shockwave",
+      "order": 226,
+      "path": "sprites/s_shockwave/s_shockwave.yy"
+    },
+    {
+      "name": "s_tran_r",
+      "order": 227,
+      "path": "sprites/s_tran_r/s_tran_r.yy"
+    },
+    {
+      "name": "s_tuto_sign",
+      "order": 228,
+      "path": "sprites/s_tuto_sign/s_tuto_sign.yy"
+    },
+    {
+      "name": "s_warboss",
+      "order": 229,
+      "path": "sprites/s_warboss/s_warboss.yy"
+    },
+    {
+      "name": "t_standard",
+      "order": 230,
+      "path": "tilesets/t_standard/t_standard.yy"
+    }
+  ]
+}

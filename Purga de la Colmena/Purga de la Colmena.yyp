@@ -1,0 +1,1232 @@
+{
+  "$GMProject": "v1",
+  "%Name": "Purga de la Colmena",
+  "AudioGroups": [
+    {
+      "$GMAudioGroup": "v1",
+      "%Name": "audiogroup_default",
+      "exportDir": "",
+      "name": "audiogroup_default",
+      "resourceType": "GMAudioGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default"
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {
+      "$GMFolder": "",
+      "%Name": "Objects",
+      "folderPath": "folders/Objects.yy",
+      "name": "Objects",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "control",
+      "folderPath": "folders/Objects/control.yy",
+      "name": "control",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "enemies",
+      "folderPath": "folders/Objects/enemies.yy",
+      "name": "enemies",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "levels",
+      "folderPath": "folders/Objects/levels.yy",
+      "name": "levels",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "player",
+      "folderPath": "folders/Objects/player.yy",
+      "name": "player",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Rooms",
+      "folderPath": "folders/Rooms.yy",
+      "name": "Rooms",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Scripts",
+      "folderPath": "folders/Scripts.yy",
+      "name": "Scripts",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Sprites",
+      "folderPath": "folders/Sprites.yy",
+      "name": "Sprites",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "enemies",
+      "folderPath": "folders/Sprites/enemies.yy",
+      "name": "enemies",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "levels",
+      "folderPath": "folders/Sprites/levels.yy",
+      "name": "levels",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "player",
+      "folderPath": "folders/Sprites/player.yy",
+      "name": "player",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    },
+    {
+      "$GMFolder": "",
+      "%Name": "Tilesets",
+      "folderPath": "folders/Tilesets.yy",
+      "name": "Tilesets",
+      "resourceType": "GMFolder",
+      "resourceVersion": "2.0"
+    }
+  ],
+  "ForcedPrefabProjectReferences": [],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2026.0.0.16"
+  },
+  "name": "Purga de la Colmena",
+  "resources": [
+    {
+      "id": {
+        "name": "o_att",
+        "path": "objects/o_att/o_att.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_bolter_shot",
+        "path": "objects/o_bolter_shot/o_bolter_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_boss_gate",
+        "path": "objects/o_boss_gate/o_boss_gate.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_boss_warboss",
+        "path": "objects/o_boss_warboss/o_boss_warboss.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_chainsword_hit",
+        "path": "objects/o_chainsword_hit/o_chainsword_hit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_chapter_select",
+        "path": "objects/o_chapter_select/o_chapter_select.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_checkpoint",
+        "path": "objects/o_checkpoint/o_checkpoint.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_cloud_1",
+        "path": "objects/o_cloud_1/o_cloud_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_cloud_2",
+        "path": "objects/o_cloud_2/o_cloud_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_control",
+        "path": "objects/o_control/o_control.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_cultist",
+        "path": "objects/o_cultist/o_cultist.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_cultist_shot",
+        "path": "objects/o_cultist_shot/o_cultist_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_dummy",
+        "path": "objects/o_dummy/o_dummy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_enemy",
+        "path": "objects/o_enemy/o_enemy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_enemy_att",
+        "path": "objects/o_enemy_att/o_enemy_att.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_enemy_body",
+        "path": "objects/o_enemy_body/o_enemy_body.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_enemy_shot",
+        "path": "objects/o_enemy_shot/o_enemy_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_enemy_walker",
+        "path": "objects/o_enemy_walker/o_enemy_walker.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_game_start",
+        "path": "objects/o_game_start/o_game_start.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_hormagaunt",
+        "path": "objects/o_hormagaunt/o_hormagaunt.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_hud",
+        "path": "objects/o_hud/o_hud.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_jumper",
+        "path": "objects/o_jumper/o_jumper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_laser_player",
+        "path": "objects/o_laser_player/o_laser_player.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_menu",
+        "path": "objects/o_menu/o_menu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_ork",
+        "path": "objects/o_ork/o_ork.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_ork_shot",
+        "path": "objects/o_ork_shot/o_ork_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_pickup",
+        "path": "objects/o_pickup/o_pickup.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_pickup_ammo",
+        "path": "objects/o_pickup_ammo/o_pickup_ammo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_pickup_health",
+        "path": "objects/o_pickup_health/o_pickup_health.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_pistol",
+        "path": "objects/o_pistol/o_pistol.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_plasma_beam",
+        "path": "objects/o_plasma_beam/o_plasma_beam.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_player",
+        "path": "objects/o_player/o_player.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_shockwave",
+        "path": "objects/o_shockwave/o_shockwave.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_solid",
+        "path": "objects/o_solid/o_solid.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_terrain",
+        "path": "objects/o_terrain/o_terrain.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_tracer_laser",
+        "path": "objects/o_tracer_laser/o_tracer_laser.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_tran",
+        "path": "objects/o_tran/o_tran.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_tran_l",
+        "path": "objects/o_tran_l/o_tran_l.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_tran_r",
+        "path": "objects/o_tran_r/o_tran_r.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_tuto_sign",
+        "path": "objects/o_tuto_sign/o_tuto_sign.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "o_tutorial",
+        "path": "objects/o_tutorial/o_tutorial.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_1",
+        "path": "rooms/r_1/r_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_2",
+        "path": "rooms/r_2/r_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_3",
+        "path": "rooms/r_3/r_3.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_boss",
+        "path": "rooms/r_boss/r_boss.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_gameover",
+        "path": "rooms/r_gameover/r_gameover.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_menu",
+        "path": "rooms/r_menu/r_menu.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_select",
+        "path": "rooms/r_select/r_select.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_tutorial",
+        "path": "rooms/r_tutorial/r_tutorial.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "r_victory",
+        "path": "rooms/r_victory/r_victory.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_draw_flash",
+        "path": "scripts/c_draw_flash/c_draw_flash.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_enemy_die",
+        "path": "scripts/c_enemy_die/c_enemy_die.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_flip",
+        "path": "scripts/c_flip/c_flip.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_player_damage",
+        "path": "scripts/c_player_damage/c_player_damage.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_screen_shake",
+        "path": "scripts/c_screen_shake/c_screen_shake.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_sfx",
+        "path": "scripts/c_sfx/c_sfx.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_weapon_bolter",
+        "path": "scripts/c_weapon_bolter/c_weapon_bolter.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_weapon_chainsword",
+        "path": "scripts/c_weapon_chainsword/c_weapon_chainsword.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_weapon_laser",
+        "path": "scripts/c_weapon_laser/c_weapon_laser.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_weapon_pistol",
+        "path": "scripts/c_weapon_pistol/c_weapon_pistol.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "c_weapon_plasma",
+        "path": "scripts/c_weapon_plasma/c_weapon_plasma.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_bolter_shot",
+        "path": "sprites/s_bolter_shot/s_bolter_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_boss_gate",
+        "path": "sprites/s_boss_gate/s_boss_gate.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_chainsword_hit",
+        "path": "sprites/s_chainsword_hit/s_chainsword_hit.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_checkpoint",
+        "path": "sprites/s_checkpoint/s_checkpoint.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_cloud_1",
+        "path": "sprites/s_cloud_1/s_cloud_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_cloud_2",
+        "path": "sprites/s_cloud_2/s_cloud_2.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_crouch",
+        "path": "sprites/s_crouch/s_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_cultist",
+        "path": "sprites/s_cultist/s_cultist.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_cultist_shot",
+        "path": "sprites/s_cultist_shot/s_cultist_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_death",
+        "path": "sprites/s_death/s_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_dummy",
+        "path": "sprites/s_dummy/s_dummy.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_enemy_shot",
+        "path": "sprites/s_enemy_shot/s_enemy_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_enemy_walker",
+        "path": "sprites/s_enemy_walker/s_enemy_walker.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_fall",
+        "path": "sprites/s_fall/s_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_fondo_colmena",
+        "path": "sprites/s_fondo_colmena/s_fondo_colmena.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_fondo_noche",
+        "path": "sprites/s_fondo_noche/s_fondo_noche.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_hormagaunt",
+        "path": "sprites/s_hormagaunt/s_hormagaunt.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_jump",
+        "path": "sprites/s_jump/s_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_jumper",
+        "path": "sprites/s_jumper/s_jumper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_laser_player",
+        "path": "sprites/s_laser_player/s_laser_player.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_crouch",
+        "path": "sprites/s_m0_crouch/s_m0_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_death",
+        "path": "sprites/s_m0_death/s_m0_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_fall",
+        "path": "sprites/s_m0_fall/s_m0_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_jump",
+        "path": "sprites/s_m0_jump/s_m0_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_melee",
+        "path": "sprites/s_m0_melee/s_m0_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_stand",
+        "path": "sprites/s_m0_stand/s_m0_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m0_walk",
+        "path": "sprites/s_m0_walk/s_m0_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_crouch",
+        "path": "sprites/s_m1_crouch/s_m1_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_death",
+        "path": "sprites/s_m1_death/s_m1_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_fall",
+        "path": "sprites/s_m1_fall/s_m1_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_jump",
+        "path": "sprites/s_m1_jump/s_m1_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_melee",
+        "path": "sprites/s_m1_melee/s_m1_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_stand",
+        "path": "sprites/s_m1_stand/s_m1_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m1_walk",
+        "path": "sprites/s_m1_walk/s_m1_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_crouch",
+        "path": "sprites/s_m2_crouch/s_m2_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_death",
+        "path": "sprites/s_m2_death/s_m2_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_fall",
+        "path": "sprites/s_m2_fall/s_m2_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_jump",
+        "path": "sprites/s_m2_jump/s_m2_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_melee",
+        "path": "sprites/s_m2_melee/s_m2_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_stand",
+        "path": "sprites/s_m2_stand/s_m2_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m2_walk",
+        "path": "sprites/s_m2_walk/s_m2_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_crouch",
+        "path": "sprites/s_m3_crouch/s_m3_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_death",
+        "path": "sprites/s_m3_death/s_m3_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_fall",
+        "path": "sprites/s_m3_fall/s_m3_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_jump",
+        "path": "sprites/s_m3_jump/s_m3_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_melee",
+        "path": "sprites/s_m3_melee/s_m3_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_stand",
+        "path": "sprites/s_m3_stand/s_m3_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m3_walk",
+        "path": "sprites/s_m3_walk/s_m3_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_crouch",
+        "path": "sprites/s_m4_crouch/s_m4_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_death",
+        "path": "sprites/s_m4_death/s_m4_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_fall",
+        "path": "sprites/s_m4_fall/s_m4_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_jump",
+        "path": "sprites/s_m4_jump/s_m4_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_melee",
+        "path": "sprites/s_m4_melee/s_m4_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_stand",
+        "path": "sprites/s_m4_stand/s_m4_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m4_walk",
+        "path": "sprites/s_m4_walk/s_m4_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_crouch",
+        "path": "sprites/s_m5_crouch/s_m5_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_death",
+        "path": "sprites/s_m5_death/s_m5_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_fall",
+        "path": "sprites/s_m5_fall/s_m5_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_jump",
+        "path": "sprites/s_m5_jump/s_m5_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_melee",
+        "path": "sprites/s_m5_melee/s_m5_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_stand",
+        "path": "sprites/s_m5_stand/s_m5_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m5_walk",
+        "path": "sprites/s_m5_walk/s_m5_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_crouch",
+        "path": "sprites/s_m6_crouch/s_m6_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_death",
+        "path": "sprites/s_m6_death/s_m6_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_fall",
+        "path": "sprites/s_m6_fall/s_m6_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_jump",
+        "path": "sprites/s_m6_jump/s_m6_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_melee",
+        "path": "sprites/s_m6_melee/s_m6_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_stand",
+        "path": "sprites/s_m6_stand/s_m6_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m6_walk",
+        "path": "sprites/s_m6_walk/s_m6_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_crouch",
+        "path": "sprites/s_m7_crouch/s_m7_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_death",
+        "path": "sprites/s_m7_death/s_m7_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_fall",
+        "path": "sprites/s_m7_fall/s_m7_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_jump",
+        "path": "sprites/s_m7_jump/s_m7_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_melee",
+        "path": "sprites/s_m7_melee/s_m7_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_stand",
+        "path": "sprites/s_m7_stand/s_m7_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m7_walk",
+        "path": "sprites/s_m7_walk/s_m7_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_crouch",
+        "path": "sprites/s_m8_crouch/s_m8_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_death",
+        "path": "sprites/s_m8_death/s_m8_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_fall",
+        "path": "sprites/s_m8_fall/s_m8_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_jump",
+        "path": "sprites/s_m8_jump/s_m8_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_melee",
+        "path": "sprites/s_m8_melee/s_m8_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_stand",
+        "path": "sprites/s_m8_stand/s_m8_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_m8_walk",
+        "path": "sprites/s_m8_walk/s_m8_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_crouch",
+        "path": "sprites/s_marine_crouch/s_marine_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_death",
+        "path": "sprites/s_marine_death/s_marine_death.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_fall",
+        "path": "sprites/s_marine_fall/s_marine_fall.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_jump",
+        "path": "sprites/s_marine_jump/s_marine_jump.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_melee",
+        "path": "sprites/s_marine_melee/s_marine_melee.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_stand",
+        "path": "sprites/s_marine_stand/s_marine_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_marine_walk",
+        "path": "sprites/s_marine_walk/s_marine_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_mask_jumper",
+        "path": "sprites/s_mask_jumper/s_mask_jumper.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_ork",
+        "path": "sprites/s_ork/s_ork.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_ork_shot",
+        "path": "sprites/s_ork_shot/s_ork_shot.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_pickup_ammo",
+        "path": "sprites/s_pickup_ammo/s_pickup_ammo.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_pickup_health",
+        "path": "sprites/s_pickup_health/s_pickup_health.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_pistol",
+        "path": "sprites/s_pistol/s_pistol.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_plasma_beam",
+        "path": "sprites/s_plasma_beam/s_plasma_beam.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_player_mask",
+        "path": "sprites/s_player_mask/s_player_mask.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_player_mask_crouch",
+        "path": "sprites/s_player_mask_crouch/s_player_mask_crouch.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_shockwave",
+        "path": "sprites/s_shockwave/s_shockwave.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_solid",
+        "path": "sprites/s_solid/s_solid.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_stand",
+        "path": "sprites/s_stand/s_stand.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_tileset_1",
+        "path": "sprites/s_tileset_1/s_tileset_1.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_tracer_lacer",
+        "path": "sprites/s_tracer_lacer/s_tracer_lacer.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_tran_l",
+        "path": "sprites/s_tran_l/s_tran_l.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_tran_r",
+        "path": "sprites/s_tran_r/s_tran_r.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_tuto_sign",
+        "path": "sprites/s_tuto_sign/s_tuto_sign.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_walk",
+        "path": "sprites/s_walk/s_walk.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "s_warboss",
+        "path": "sprites/s_warboss/s_warboss.yy"
+      }
+    },
+    {
+      "id": {
+        "name": "t_standard",
+        "path": "tilesets/t_standard/t_standard.yy"
+      }
+    }
+  ],
+  "resourceType": "GMProject",
+  "resourceVersion": "2.0",
+  "RoomOrderNodes": [
+    {
+      "roomId": {
+        "name": "r_menu",
+        "path": "rooms/r_menu/r_menu.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_tutorial",
+        "path": "rooms/r_tutorial/r_tutorial.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_select",
+        "path": "rooms/r_select/r_select.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_1",
+        "path": "rooms/r_1/r_1.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_2",
+        "path": "rooms/r_2/r_2.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_3",
+        "path": "rooms/r_3/r_3.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_boss",
+        "path": "rooms/r_boss/r_boss.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_gameover",
+        "path": "rooms/r_gameover/r_gameover.yy"
+      }
+    },
+    {
+      "roomId": {
+        "name": "r_victory",
+        "path": "rooms/r_victory/r_victory.yy"
+      }
+    }
+  ],
+  "templateType": "game",
+  "TextureGroups": [
+    {
+      "$GMTextureGroup": "",
+      "%Name": "Default",
+      "autocrop": true,
+      "border": 2,
+      "compressFormat": "bz2",
+      "customOptions": "",
+      "directory": "",
+      "groupParent": null,
+      "isScaled": true,
+      "loadType": "default",
+      "mipsToGenerate": 0,
+      "name": "Default",
+      "resourceType": "GMTextureGroup",
+      "resourceVersion": "2.0",
+      "targets": -1
+    }
+  ]
+}

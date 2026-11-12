@@ -1,0 +1,6 @@
+USUARIO: admin
+CONTRASEÑA: admin
+
+http://localhost:8090/testlink/index.php?caller=login&viewer=
+database : root
+contraseña :univalle

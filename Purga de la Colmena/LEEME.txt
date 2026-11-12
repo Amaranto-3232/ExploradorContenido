@@ -1,0 +1,84 @@
+PURGA DE LA COLMENA - Proyecto GameMaker (basado en Plataformer V-10)
+=====================================================================
+
+Abrir: doble clic en "Purga de la Colmena.yyp" (GameMaker 2026) y presionar F5.
+
+CONTROLES
+  Flechas IZQ/DER ..... moverse
+  Flecha ABAJO ........ agacharse (abajo + salto = bajar de pasarela)
+  ALT o ESPACIO ....... saltar (soltar antes = salto corto)
+  CTRL o X ............ disparar / atacar
+  Q ................... cambiar arma (Bolter -> Plasma -> Espada sierra)
+  E ................... Furia del Emperador (con fervor al 100)
+  P o ESC ............. pausa
+  TAB ................. saltar el tutorial
+  ENTER ............... empezar / elegir capitulo / volver al menu
+
+ROOMS (en orden)
+  r_menu -> r_tutorial (Prueba del Aspirante) -> r_select (elige tu Capitulo)
+  -> r_1 -> r_2 -> r_3 (sector del Caos) -> r_boss (Kaudillo Orko)
+  -> r_victory  |  r_gameover al quedarte sin vidas
+
+TUTORIAL (r_tutorial)
+  10 data-slates (o_tuto_sign) que explican cada mecanica al acercarte.
+  Blancos de practica: o_dummy. En el tutorial no se pierden vidas.
+  El texto de cada data-slate esta en el Creation Code de su instancia.
+  Juegas como Aspirante (armadura gris).
+
+CAPITULOS (r_select / o_chapter_select)
+  9 capitulos con el marine simple pintado con sus colores. Cada uno cambia
+  vida, armadura, velocidad, salto y el dano/cadencia de sus armas
+  (global.chapters en el Game Start de o_game_start):
+   0 Order of the Caliban Vanguard (verde oscuro) - mas armadura, plasma reforzado
+   1 Ultramar Vanguard (azul) ............ equilibrado, armadura regenera rapido
+   2 Bloodied Host (rojo) ................ espada x1.6, agil
+   3 Iron Wolf Brotherhood (gris azulado)  rapido, fuerte de cerca
+   4 Fists of the Praetorian (amarillo) .. 140 de vida, lento
+   5 Dragonfire Guard (verde) ............ plasma casi no se calienta
+   6 Raven's Watch (negro) ............... salta mucho mas alto
+   7 White Lightning Order (blanco) ...... el mas rapido, bolter de alta cadencia
+   8 Forgemasters of Iron (hierro) ....... armadura enorme que se repara sola
+  Sprites: s_marine_* (Aspirante) y s_m0_* ... s_m8_* (un juego completo de
+  poses por capitulo). global.ch_spr guarda que sprites usa cada uno.
+
+AJUSTES VISUALES
+  - "Interpolate colours between pixels" desactivado en todas las
+    plataformas: el pixel art ya no se ve borroso.
+  - Camara 640x360 escalada x2 a 1280x720 (escala entera, pixeles parejos)
+    y posicion de camara redondeada para que no tiemble.
+  - Fondo alineado con el piso de cada room (se ve la ciudad, no solo el
+    cielo), sin estirar, sin cortes al repetirse y un poco mas oscuro para
+    que balas y enemigos resalten.
+  - Puertas blindadas redibujadas (la franja de peligro salia rota).
+
+QUE MAS SE AGREGO / CAMBIO
+  Jugador (o_player): armadura que se regenera tras 3 s sin dano, fervor,
+  Furia del Emperador (5 s, dano x2, invulnerable), 3 vidas, respawn en el
+  ultimo estandarte.
+  Armas (scripts): c_weapon_bolter, c_weapon_plasma (municion 20 +
+  sobrecalentamiento), c_weapon_chainsword. Se mantienen pistol y laser
+  originales (corregidos).
+  Enemigos (hijos de o_enemy_body): o_ork, o_hormagaunt, o_cultist,
+  o_boss_warboss (3 fases), o_dummy.
+  Nivel: o_boss_gate, o_pickup_health, o_pickup_ammo, estandartes
+  (o_checkpoint) y puertas blindadas (o_tran_l / o_tran_r).
+  Sistema: o_hud (HUD + pausa), o_menu, o_tutorial, o_chapter_select,
+  o_control (camara con screen shake + humo).
+
+BUGS DEL V-10 CORREGIDOS
+  1. o_tracer_laser no disparaba a la izquierda.
+  2. o_tracer_laser usaba global.p_system (no existia) -> global.part_front.
+  3. c_weapon_laser creaba dos o_tracer_laser -> el haz ahora es o_laser_player.
+  4. ammo_lase no impedia disparar.
+  5. o_enemy_shot no se destruia al golpear al jugador.
+  6. Enemigos usaban o_player sin instance_exists.
+  Extra: respawn con image_alpha == 0, jugador duplicado al volver a r_1,
+  y morir antes del primer estandarte mandaba a la room 0.
+
+NOTAS
+  - Vidas y puntos: global.vidas y global.puntos (lives y score son
+    variables internas de GameMaker).
+  - Sonidos: crea assets con estos nombres y sonaran solos:
+    snd_bolter, snd_plasma, snd_chainsword, snd_ork_die, snd_hit,
+    snd_music_level, snd_music_boss (si no existen, el juego funciona igual).
+  - Todos los sprites son pixel art original.
